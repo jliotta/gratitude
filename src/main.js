@@ -1,7 +1,8 @@
 import Vue from 'vue';
+import MainNav from './components/MainNav.js';
 
 var vm = new Vue({
-  el: '#app',
+  el: '#root',
   data: {
     message: 'Hello Vue!'
   }
